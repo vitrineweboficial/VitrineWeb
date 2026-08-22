@@ -23,7 +23,7 @@ export const CONFIG: SiteConfig = {
   whatsapp: "", // ⬅️ TROQUE AQUI SEU WHATSAPP (Ex: "5511999999999" com DDI 55 + DDD + Número)
   instagram: "https://instagram.com/vitrineweb.oficial",
   email: "vitrineweb.comercial@gmail.com",
-  logo: "/logo-vitrineweb.jpg,jpeg", // Caminho do arquivo de imagem da logo (ex: "/logo.png" ou vazio para usar o logo vetorial oficial)
+  logo: "/logonova.png", // Caminho do arquivo de imagem da logo (ex: "/logo.png" ou vazio para usar o logo vetorial oficial)
   ano: "2026",
 };
 
