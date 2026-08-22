@@ -1,0 +1,78 @@
+<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Círculo escuro oficial da marca sem nenhuma borda branca externa -->
+  <circle cx="100" cy="100" r="98" fill="url(#circle-navy-bg)" />
+  <circle cx="100" cy="100" r="97" stroke="#1E2B45" stroke-width="2.5" />
+  <circle cx="100" cy="100" r="98" stroke="url(#circle-rim)" stroke-width="1.5" />
+
+  <defs>
+    <!-- Gradiente de fundo do círculo escuro -->
+    <radialGradient id="circle-navy-bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#0F1B2E" />
+      <stop offset="60%" stop-color="#070C16" />
+      <stop offset="100%" stop-color="#03060B" />
+    </radialGradient>
+
+    <!-- Brilho na borda do círculo -->
+    <linearGradient id="circle-rim" x1="20" y1="20" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#1D4ED8" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Azul Royal vibrante do W -->
+    <linearGradient id="electric-blue" x1="75" y1="40" x2="155" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+
+    <!-- Sombra/Dobra interna 3D do W -->
+    <linearGradient id="fold-shadow" x1="70" y1="50" x2="105" y2="115" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E40AF" />
+      <stop offset="100%" stop-color="#0F285F" />
+    </linearGradient>
+
+    <!-- Sombra suave das letras -->
+    <filter id="monogram-shadow" x="20" y="25" width="160" height="145" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.7" />
+    </filter>
+  </defs>
+
+  <!-- Monograma Central VW -->
+  <g filter="url(#monogram-shadow)">
+    <!-- 1. Letra 'V' em Branco -->
+    <path
+      d="M44 48 L72 120 H93 L64 48 Z"
+      fill="#FFFFFF"
+    />
+
+    <!-- 2. Dobra/Sombra 3D de transição entre V e W -->
+    <path
+      d="M72 120 L93 58 L108 80 L87 120 Z"
+      fill="url(#fold-shadow)"
+    />
+
+    <!-- 3. Haste ascendente intermediária do W -->
+    <path
+      d="M86 120 L110 58 H130 L98 120 Z"
+      fill="url(#electric-blue)"
+    />
+
+    <!-- 4. Perna direita angular do W -->
+    <path
+      d="M110 58 L128 120 H146 L158 48 H138 L128 102 L117 48 H100 L110 58 Z"
+      fill="url(#electric-blue)"
+    />
+  </g>
+
+  <!-- Tipografia 'VitrineWeb' no rodapé do círculo -->
+  <text
+    x="100"
+    y="156"
+    text-anchor="middle"
+    style="font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 800; font-size: 23px; letter-spacing: -0.025em;"
+  >
+    <tspan fill="#FFFFFF">Vitrine</tspan>
+    <tspan fill="#2563EB" dx="1">Web</tspan>
+  </text>
+</svg>

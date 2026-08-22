@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/* ==========================================
+   ===== CORES E VARIÁVEIS DA VITRINEWEB =====
+   ==========================================
+   Altere facilmente as cores da identidade visual aqui.
+*/
+
+:root {
+  --primary-color: #2563EB;        /* Azul vibrante moderno / Confiança */
+  --primary-hover: #1D4ED8;        /* Azul escuro hover */
+  --secondary-color: #06B6D4;      /* Ciano tecnológico / Destaque */
+  --accent-color: #10B981;         /* Esmeralda / Conversão e sucesso */
+  --whatsapp-color: #25D366;       /* Verde oficial WhatsApp */
+  
+  --background-color: #0B1120;     /* Fundo principal escuro premium */
+  --background-card: #131C31;      /* Superfície dos cards */
+  --background-card-hover: #18233D;/* Hover dos cards */
+  --background-alt: #0F172A;       /* Fundo alternativo */
+  
+  --text-color: #F8FAFC;           /* Texto principal claro */
+  --text-secondary: #94A3B8;       /* Texto secundário */
+  --text-muted: #64748B;           /* Texto atenuado */
+  
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-accent: rgba(37, 99, 235, 0.3);
+}
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: "Space Grotesk", "Plus Jakarta Sans", sans-serif;
+
+  --color-primary: var(--primary-color);
+  --color-primary-hover: var(--primary-hover);
+  --color-secondary: var(--secondary-color);
+  --color-accent: var(--accent-color);
+  --color-whatsapp: var(--whatsapp-color);
+
+  --color-bg-main: var(--background-color);
+  --color-bg-card: var(--background-card);
+  --color-bg-card-hover: var(--background-card-hover);
+  --color-bg-alt: var(--background-alt);
+
+  --color-text-main: var(--text-color);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B1120;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563EB;
+}
+
+/* Glass and glow utilities */
+.glass-card {
+  background: rgba(19, 28, 49, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-header {
+  background: rgba(11, 17, 32, 0.85);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Focus styles for accessibility */
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 2px solid #2563EB;
+  outline-offset: 2px;
+}

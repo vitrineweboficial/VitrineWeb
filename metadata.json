@@ -1,0 +1,8 @@
+{
+  "name": "VitrineWeb",
+  "description": "Site institucional e comercial da VitrineWeb - Seu negócio merece uma vitrine na internet. Sites profissionais para empresas e pequenos negócios.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
