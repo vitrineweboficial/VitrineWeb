@@ -23,7 +23,7 @@ export const CONFIG: SiteConfig = {
   whatsapp: "", // ⬅️ TROQUE AQUI SEU WHATSAPP (Ex: "5511999999999" com DDI 55 + DDD + Número)
   instagram: "https://instagram.com/vitrineweb.oficial",
   email: "vitrineweb.comercial@gmail.com",
-  logo: "/logo-vitrineweb.png", // Caminho do arquivo de imagem da logo (ex: "/logo.png" ou vazio para usar o logo vetorial oficial)
+  logo: "", // Caminho do arquivo de imagem da logo (ex: "/logo.png" ou vazio para usar o logo vetorial oficial)
   ano: "2026",
 };
 
@@ -56,8 +56,8 @@ export const PROJETOS: ProjetoItem[] = [
     nome: "Camila Lima Beauty Hair",
     categoria: "Beleza",
     descricao: "Projeto demonstrativo de site para salão de beleza, estética capilar e agendamento online.",
-    imagem: "",
-    link: "",
+    imagem: "/projects/camila-lima-beauty.png",
+    link: "https://camila-lima-beauty-hair.pages.dev/",
     demo: true,
     etiqueta: "Projeto Demo",
     features: ["Agendamento Online", "Catálogo de Procedimentos", "Galeria de Cortes & Mechas", "Botão WhatsApp Direto"],

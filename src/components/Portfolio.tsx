@@ -166,7 +166,13 @@ export function Portfolio() {
                   {/* Botão de Ver Projeto */}
                   <div className="pt-4 border-t border-slate-800/80">
                     <button
-                      onClick={() => setSelectedProject(projeto)}
+                      onClick={() => {
+  if (projeto.link) {
+    window.open(projeto.link, "_blank", "noopener,noreferrer");
+  } else {
+    setSelectedProject(projeto);
+  }
+}}
                       className="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl text-sm font-semibold text-white bg-slate-800/90 hover:bg-blue-600 border border-slate-700/80 hover:border-transparent transition-all duration-200 shadow-sm"
                       id={`ver-projeto-btn-${projeto.id}`}
                     >
