@@ -1,20 +1,61 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🌐 VitrineWeb
 
-# Run and deploy your AI Studio app
+### Sites profissionais para negócios que querem crescer no digital.
 
-This contains everything you need to run your app locally.
+A **VitrineWeb** desenvolve sites modernos, responsivos e profissionais para pequenas empresas, profissionais e negócios locais.
 
-View your app in AI Studio: https://ai.studio/apps/01e2b84e-7414-41d1-91cb-87c40e43965a
+Nosso objetivo é transformar negócios em verdadeiras vitrines digitais, facilitando a apresentação de serviços, produtos e formas de contato com clientes.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🚀 Sobre o projeto
 
+Este repositório contém o site institucional da **VitrineWeb**, incluindo nosso portfólio de projetos e sites demonstrativos.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+O site foi desenvolvido com foco em:
+
+- ⚡ Velocidade e desempenho
+- 📱 Design responsivo para celular, tablet e computador
+- 🎨 Visual moderno e profissional
+- 🔎 Apresentação clara dos serviços
+- 💼 Portfólio de projetos
+- 📲 Facilidade de contato com potenciais clientes
+
+---
+
+## 💼 Projetos
+
+Nosso portfólio possui projetos demonstrativos desenvolvidos para diferentes segmentos, como:
+
+- 💄 Beleza e Estética
+- 🍽️ Restaurantes
+- 🚗 Serviços
+- 🏗️ Empresas
+- 👨‍⚕️ Profissionais
+
+Os projetos demonstram diferentes possibilidades de sites que podem ser desenvolvidos pela **VitrineWeb**.
+
+---
+
+## 🛠️ Tecnologias
+
+Este projeto utiliza tecnologias modernas de desenvolvimento web:
+
+- React
+- TypeScript
+- Vite
+- CSS
+- GitHub
+- Cloudflare Pages
+
+---
+
+## 📱 VitrineWeb
+
+**Seu negócio merece ser encontrado, conhecido e lembrado.**
+
+Transformamos sua empresa em uma vitrine profissional na internet.
+
+---
+
+© 2026 VitrineWeb — Todos os direitos reservados.
