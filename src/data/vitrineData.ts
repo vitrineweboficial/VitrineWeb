@@ -71,7 +71,7 @@ export const PROJETOS: ProjetoItem[] = [
       statValue: "100%",
       statLabel: "Design Responsivo",
     }
-  },
+     },
   {
     id: "studio-bella",
     nome: "Studio Bella",

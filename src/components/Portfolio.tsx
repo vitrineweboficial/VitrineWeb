@@ -84,6 +84,17 @@ export function Portfolio() {
                 id={`projeto-card-${projeto.id}`}
               >
                 {/* Visual Mockup Superior */}
+                {projeto.id === "camila-lima-beauty" ? (
+  <div className="p-4 sm:p-5 bg-[#0A101D] border-b border-slate-800/80">
+    <div className="bg-[#111A2E] rounded-xl border border-slate-700/80 overflow-hidden">
+      <img
+        src="/projects/camila-lima-beauty.png"
+        alt={`Preview do site ${projeto.nome}`}
+        className="w-full h-44 sm:h-48 object-cover object-top"
+      />
+    </div>
+  </div>
+) : (
                 <div className="p-4 sm:p-5 bg-[#0A101D] border-b border-slate-800/80">
                   <div className="bg-[#111A2E] rounded-xl border border-slate-700/60 overflow-hidden shadow-inner relative group-hover:scale-[1.02] transition-transform duration-300">
                     
@@ -128,7 +139,7 @@ export function Portfolio() {
 
                   </div>
                 </div>
-
+)}
                 {/* Conteúdo do Card */}
                 <div className="p-6 flex-1 flex flex-col justify-between">
                   <div>
