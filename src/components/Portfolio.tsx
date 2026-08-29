@@ -84,11 +84,11 @@ export function Portfolio() {
                 id={`projeto-card-${projeto.id}`}
               >
                 {/* Visual Mockup Superior */}
-                {projeto.id === "camila-lima-beauty" ? (
+                {projeto.imagem ? (
   <div className="p-4 sm:p-5 bg-[#0A101D] border-b border-slate-800/80">
     <div className="bg-[#111A2E] rounded-xl border border-slate-700/80 overflow-hidden">
       <img
-        src="/projects/camila-lima-beauty.png"
+        src={projeto.imagem}
         alt={`Preview do site ${projeto.nome}`}
         className="w-full h-44 sm:h-48 object-cover object-top"
       />

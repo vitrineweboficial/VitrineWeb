@@ -73,26 +73,26 @@ export const PROJETOS: ProjetoItem[] = [
     }
      },
   {
-    id: "studio-bella",
-    nome: "Studio Bella",
-    categoria: "Beleza",
-    descricao: "Projeto demonstrativo para clínica de estética, sobrancelhas e cuidados femininos de alto padrão.",
-    imagem: "",
-    link: "",
-    demo: true,
-    etiqueta: "Projeto Demo",
-    features: ["Apresentação de Tratamentos", "Design Clean & Sofisticado", "Tabela de Cuidados", "Integração Mobile"],
-    mockupTheme: {
-      primaryColor: "#EC4899",
-      accentColor: "#FCE7F3",
-      bgStyle: "from-[#1F1322] to-[#120B15]",
-      tagline: "Estética & Bem-Estar",
-      heroHeadline: "Realce sua beleza natural com cuidados especializados",
-      statValue: "24/7",
-      statLabel: "Vitrine Ativa",
-    }
-  },
-  {
+  id: "studio-bella",
+  nome: "Studio Bella",
+  categoria: "Beleza",
+  descricao: "Projeto demonstrativo para clínica de estética e beleza, com design elegante, responsivo e foco em agendamentos.",
+  imagem: "/projects/studio-bella.png",
+  link: "https://studio-bella.pages.dev/",
+  demo: true,
+  etiqueta: "Projeto Demo",
+  features: ["Apresentação de Tratamentos", "Design Clean & Sofisticado"],
+  mockupTheme: {
+    primaryColor: "#EC4899",
+    accentColor: "#FCE7F3",
+    bgStyle: "from-[#1F1322] to-[#120B15]",
+    tagline: "Estética & Bem-Estar",
+    heroHeadline: "Realce sua beleza natural com cuidados especializados",
+    statValue: "24/7",
+    statLabel: "Vitrine Ativa",
+  }
+},
+{
     id: "prime-construcoes",
     nome: "Prime Construções",
     categoria: "Empresas",
