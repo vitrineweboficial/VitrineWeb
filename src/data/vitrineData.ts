@@ -152,26 +152,30 @@ export const PROJETOS: ProjetoItem[] = [
     statLabel: "Veículos Atendidos",
     }
   },
-  {
-    id: "dra-juliana-medeiros",
-    nome: "Dra. Juliana Medeiros",
-    categoria: "Profissionais",
-    descricao: "Projeto demonstrativo de site profissional para consultas médicas, clínicas e atendimentos especializados.",
-    imagem: "",
-    link: "",
-    demo: true,
-    etiqueta: "Projeto Demo",
-    features: ["Apresentação do Currículo", "Áreas de Atuação", "Agendamento Ágil", "Dúvidas Frequentes"],
-    mockupTheme: {
-      primaryColor: "#14B8A6",
-      accentColor: "#CCFBF1",
-      bgStyle: "from-[#082F49] to-[#031A2B]",
-      tagline: "Saúde & Atendimento Humanizado",
-      heroHeadline: "Atenção completa à sua saúde e bem-estar",
-      statValue: "100%",
-      statLabel: "Confiança & Ética",
-    }
+ {
+  id: "dra-juliana-medeiros",
+  nome: "Dra. Juliana Medeiros",
+  categoria: "Profissionais",
+  descricao: "Site demonstrativo para profissional de dermatologia clínica e estética.",
+  imagem: "/projects/dra-juliana-medeiros.png",
+  link: "https://dra-juliana-medeiros-site.pages.dev/",
+  demo: true,
+  etiqueta: "Projeto Demo",
+  features: [
+    "Apresentação de Atendimentos",
+    "Agendamento de Consultas",
+    "Design Médico Responsivo"
+  ],
+  mockupTheme: {
+    primaryColor: "#31483C",
+    accentColor: "#879C8A",
+    bgStyle: "from-[#F8F7F4] to-[#DED5C8]",
+    tagline: "Dermatologia Clínica & Estética",
+    heroHeadline: "Cuidado especializado para a saúde e beleza da sua pele.",
+    statValue: "Online",
+    statLabel: "Agendamento Facilitado",
   }
+},
 ];
 
 // ==========================================
