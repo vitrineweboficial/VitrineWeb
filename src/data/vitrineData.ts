@@ -20,7 +20,7 @@ import {
 export const CONFIG: SiteConfig = {
   nome: "VitrineWeb",
   slogan: "Seu negócio merece uma vitrine na internet.",
-  whatsapp: "", // ⬅️ TROQUE AQUI SEU WHATSAPP (Ex: "5511999999999" com DDI 55 + DDD + Número)
+  whatsapp: "5511918630311", // ⬅️ TROQUE AQUI SEU WHATSAPP (Ex: "5511999999999" com DDI 55 + DDD + Número)
   instagram: "https://instagram.com/vitrineweb.oficial",
   email: "vitrineweb.comercial@gmail.com",
   logo: "", // Caminho do arquivo de imagem da logo (ex: "/logo.png" ou vazio para usar o logo vetorial oficial)
